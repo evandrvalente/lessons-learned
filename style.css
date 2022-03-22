@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scrollbar-color: rgb(87, 85, 85);
+  color: white;
+  overflow-x: hidden;
+  font-family: Blanco, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background-color: rgb(11, 10, 17);
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+main {
+  width: 72%;
+  float: left;
+}
+
+#cabecalho {
+  top: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(58, 4, 58);
+  display: block;
+  z-index: 99;
+  position: fixed;
+}
+
+#topheader {
+  margin: 10px;
+  top: 0;
+  color: white;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+a:link , a:visited , a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+#page {
+  width: 80%;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+
+h1 , h2 , h3 , q {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.presentation {
+  font-size: 1.2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* stylelint-disable-next-line max-line-length */
+  background: linear-gradient(90deg, rgb(243, 3, 115) 0%, rgb(132, 2, 192) 57%, rgb(58, 190, 252) 100%);
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  display: block;
+}
+
+#minha_foto {
+  margin-top: 40px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.studentItem {
+  font-family: Calibri, Trebuchet, sans-serif;
+  display: inline-block;
+  overflow-wrap: break-word;
+  padding: 20px;
+  width: 42%;
+  margin: auto;
+}
+
+
+#lessonskit {
+  font-size: 1.2rem;
+  background: white;
+  color: black;
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  padding: 3rem;
+  position: relative;
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.lessonslist {
+  overflow-wrap: break-word;
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 44%;
+}
+
+.lessonslist ol , ul {
+  text-align: center;
+  list-style-position: inside;
+  line-height: 1.3em;
+}
+
+.coursetable {
+  font-size: 1.2rem;
+  background: white;
+  color: black;
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  position: relative;
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+table , td {
+  border: 2px solid white;
+  padding: 15px;
+}
+
+tr:hover {
+  font-weight: 500;
+}
+
+.modulo {
+  background-color: rgb(25, 253, 44);
+}
+
+.moduloitem {
+  background-color: white;
+}
+
+.colchete {
+  width: 20px;
+  font-size: 60px;
+  text-align: center;
+  background-color: white;
+}
+
+.aprendizado-container {
+  display: flex;
+  margin: 30px;
+}
+
+.lado-esquerdo {
+  font-size: 1.2rem;
+  background: white;
+  color: black;
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  position: relative;
+  display: block;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.lado-direito {
+  display: block;
+}
+
+.pcontent {
+  text-align: justify;
+  color: black;
+}
+
+.rightaside {
+  top: 110px;
+  width: 18%;
+  font-size: 1.2rem;
+  background: white;
+  color: black;
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  position: relative;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aside2 {
+  top: 110px;
+  width: 18%;
+  font-size: 1.2rem;
+  background: white;
+  color: black;
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  padding: 3rem;
+  position: relative;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aside2 p {
+  text-align: justify;
+}
+
+.aside2 h3 {
+  color: green;
+}
+
+.aside2 a:link , .aside2 a:visited , .aside2 a:active {
+  text-decoration: none;
+  color: rgb(7, 114, 4);
+  font-size: 1.2em;
+}
+
+.aside2 a:hover {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(5, 138, 0);
+}
+
+
+q {
+  font-size: 2.5em;
+  color: turquoise;
+}
+
+q , blockquote {
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#mylinks {
+  margin-bottom: 40px;
+}
+
+#mylinks h3 {
+  color: rgb(0, 125, 228);
+}
+
+#favlinks h3 {
+  color: rgb(0, 64, 214);
+}
+
+.linkfavs a:link , .linkfavs a:visited , .linkfavs a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.linkfavs a:hover {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+.linkfavs li {
+  text-align: left;
+}
+
+.contentnav {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contentnav ul li {
+  display: inline;
+}
+
+#firstlessons h3 {
+  color: rgb(255, 0, 119);
+}
+
+#nextlessons h3 {
+  color: purple;
+}
+
+#tabelatrilha h3 {
+  color: limegreen;
+}
+
+#aprendizado h3 {
+  color: rgb(0, 116, 0);
+}
+
+.footer {
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  clear: both;
+  background-color: purple;
+  padding: 10px;
+}

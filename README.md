@@ -14,4 +14,4 @@ Essa página foi desenvolvida do zero, utilizando os arquivos index.html e style
 
 ---
 
-Link para o [Site]
+Link para o [Site](https://evandrvalente.github.io/lessons-learned/)
